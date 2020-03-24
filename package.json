@@ -1,12 +1,20 @@
 {
   "name": "csv-to-mongodb",
   "version": "1.0.0",
-  "description": "",
+  "description": "A typescript utility to easily and directly import CSV files into MongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts"
+    "build": "tsc cli.ts && sed -i '1i#!/usr/bin/env node \n' cli.js && chmod +x cli.js",
+    "start": "node index.js"
   },
-  "author": "",
+  "bin": {
+    "csv-to-mongodb": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desertdisk/csv-to-mongodb"
+  },
+  "author": "Jory Hatton <jory@catalyzelabs.com>",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^13.9.3",
