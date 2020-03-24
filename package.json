@@ -1,6 +1,6 @@
 {
   "name": "csv-to-mongodb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple command line utility to quickly and easily import CSV files directly into MongoDB.",
   "main": "index.js",
   "scripts": {
