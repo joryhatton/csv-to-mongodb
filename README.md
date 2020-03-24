@@ -6,7 +6,7 @@ A simple command line utility to quickly and easily import CSV files directly in
 
 install it with:
 ``` bash
-npm install csv-to-mongodb
+npm install -g csv-to-mongodb
 ```
 
 then run it with:
