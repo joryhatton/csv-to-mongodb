@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.npmjs.com/package/csv-to-mongodb" target="_blank">
+    <img alt="CSV to MongoDB" src="https://raw.githubusercontent.com/desertdisk/csv-to-mongodb/master/images/csvtomongodb.png" width="625">
+  </a>
+</p>
+
 # CSV to MongoDB Importer
 
 A simple command line utility to quickly and easily import CSV files directly into MongoDB.
