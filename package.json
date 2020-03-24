@@ -1,7 +1,7 @@
 {
   "name": "csv-to-mongodb",
   "version": "1.0.0",
-  "description": "A typescript utility to easily and directly import CSV files into MongoDB",
+  "description": "A simple command line utility to quickly and easily import CSV files directly into MongoDB.",
   "main": "index.js",
   "scripts": {
     "build": "tsc cli.ts && sed -i '1i#!/usr/bin/env node \n' cli.js && chmod +x cli.js",
